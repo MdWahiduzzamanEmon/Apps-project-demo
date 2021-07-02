@@ -50,9 +50,6 @@ header{
     width: 48%;
     margin-left: 24rem;
 }
-.menu ul{
-    /* margin-top: 1rem; */
-}
 .menu ul li{
     list-style-type: none;
     display:inline-block;
