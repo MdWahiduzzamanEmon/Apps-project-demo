@@ -16,7 +16,15 @@ a{
     text-decoration: none;
     color: black;
 }
-
+img{
+    max-width: 100%;
+    display: block;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
 
 /*header section*/
 header{
@@ -129,7 +137,7 @@ header{
 
 /*header section*/
 /* section*/
-section{
+.slider{
     background:linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7)),url("img/mbr-1920x1280.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -155,3 +163,42 @@ section{
     
 }
 /* section*/
+
+/*social section*/
+.article{
+    margin-top:6rem;
+}
+.social-img{
+    float: left;
+    width: 30%;
+    margin-right:4% ;
+}
+.social-img:last-child{
+    margin-right:0px;
+}
+.social-img h3{
+    font-size: 2.5rem;
+    margin-top: .8rem;
+    border-bottom: 3.5px solid #FF5500 ;
+    display: inline-block;
+}
+.social-img h3:hover{
+    color:#FF5500  ;
+    transition: .3s ease all;
+    -webkit-transition: .3s ease all;
+    -moz-transition: .3s ease all;
+    -ms-transition: .3s ease all;
+    -o-transition: .3s ease all;
+    cursor: pointer;
+}
+
+.social-img h4{
+    font-size: 1.5rem;
+    margin-top: .8rem;
+    letter-spacing: .2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+   
+}
+/*social section*/
