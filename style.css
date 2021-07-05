@@ -173,6 +173,7 @@ header{
     float: left;
     width: 30%;
     margin-left:3% ;
+    
 }
 .social-img h3{
     font-size: 2.5rem;
@@ -199,16 +200,15 @@ header{
     margin-bottom: 3rem;
    
 }
-.social-img{
+.overly-image{
     position: relative;
     overflow: hidden;
-    
 }
 /*image overly*/
 .overly{
     position: absolute;
     background-color:rgba(255, 85, 0, 0.801);
-    height: 72.3%;
+    height: 100%;
     width: 100%;
     top: 0;
     left: -100%;
@@ -220,6 +220,10 @@ header{
     cursor: pointer;
 }
 .social-img:hover .overly{
+    left: 0;
+    
+}
+.partition-first:hover .overly{
     left: 0;
     
 }
@@ -260,3 +264,47 @@ header{
 }
 
 /*feature section*/
+
+/*performance section*/
+.performance{
+    margin-top: 10rem;
+}
+.partition-first{
+    float: left;
+    width: 45%;
+
+    position: relative;
+    overflow: hidden;
+}
+.partition-second{
+    width: 50%;
+    float: right;
+}
+.partition-second h1{
+    font-size: 2.8rem;
+    margin-bottom: 2.5rem;
+    line-height: 1.5;
+    text-decoration: underline;
+    text-decoration-color: #FF5500;
+    -moz-text-decoration-color: #FF5500;
+}
+.partition-second h1:hover{
+    color: #FF5500;
+    transition: .4s all ease-in-out;
+    cursor: pointer;
+    -webkit-transition: .4s all ease-in-out;
+    -moz-transition: .4s all ease-in-out;
+    -ms-transition: .4s all ease-in-out;
+    -o-transition: .4s all ease-in-out;
+}
+.partition-second p{
+    font-size: 2rem;
+}
+.performance{
+    margin-left: 15rem;
+}
+.margin{
+    margin-bottom: 8rem;
+}
+
+/*performance section*/
