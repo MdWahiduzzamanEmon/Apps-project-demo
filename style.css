@@ -7,6 +7,7 @@
 .wrapper{
     max-width: 130rem;
     margin: 0 auto;
+    
 }
 html{
     font-size: 	62.50%;
@@ -143,7 +144,7 @@ header{
     background-size: cover;
     background-position: center;
     height:60rem;
-    margin-top: 10rem;
+    margin-top: 8.9rem;
     position: relative;
 }
 .container h1{
@@ -151,8 +152,6 @@ header{
     font-size: 9rem;
     color:#FF5500 ;
     margin-top: 15rem;
-    width: 100%;
-    display: inline;
 }
 .container h2{
     position: absolute;
@@ -308,3 +307,12 @@ header{
 }
 
 /*performance section*/
+
+/*bg-big-img*/
+.bg-big-img img{
+    height: 70%;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+/*bg-big-img*/
