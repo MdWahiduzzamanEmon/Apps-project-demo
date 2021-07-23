@@ -590,20 +590,26 @@ footer span{
         max-width: 100%;
     }
     header{
-        height: 19vh;
+        height: 10vh;
     }
     .menu{
         display: none;
     }
-    .logo{
-        font-size: 2.6rem;
-    }
-    .btn1{
-        float: none;
-        margin-left: 1rem;
-    }
+    .logo {
+    font-size: 2.6rem;
+    font-weight: bold;
+    float: left;
+    padding: 2.1rem;
+    width: 48%;
+}
+    .btn1 {
+    float: right;
+    width: 40%;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
     .slider{
-        margin-top: 18.9rem;
+        margin-top: 6.9rem;
     }
     .container h1 {
     font-size: 6rem;  
@@ -722,11 +728,20 @@ footer{
 
 @media only screen and (max-width:320px){
     header {
-    height: 28vh;
+    height: 15vh;
 }
     .solution {
     width: 250px;
     height: 250px;
+}
+.logo {
+    padding: 1.1rem;
+}
+.slider {
+    margin-top: 7.9rem;
+}
+.btn1 button {
+    width: 12rem;
 }
 .solution h1 {
     font-size: 30px;
