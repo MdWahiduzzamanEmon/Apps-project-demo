@@ -430,6 +430,10 @@ header{
     color: #fff;
     margin-bottom: 40px;
 }
+.video-section iframe{
+    width: 860px;
+    height: 615px;
+}
 
 /* form-section */
 
@@ -575,4 +579,142 @@ footer{
 footer span{
     color: black;
     font-weight: bold;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width:768px) {
+    .wrapper{
+        max-width: 100%;
+    }
+    header{
+        height: 19vh;
+    }
+    .menu{
+        display: none;
+    }
+    .logo{
+        font-size: 2.6rem;
+    }
+    .btn1{
+        float: none;
+        margin-left: 1rem;
+    }
+    .slider{
+        margin-top: 18.9rem;
+    }
+    .container h1 {
+    font-size: 6rem;  
+    margin-top: 0rem;
+    }
+    .container h2 {
+    font-size: 3.2rem;
+    top: 25%;
+    }
+    .social-img {
+    float: none;
+    width: 100%;
+    margin-left: 0%;
+}
+.feature-section {
+    margin-left: 0rem;
+}
+.social-feature {
+    float: none;
+    width: 100%;
+    margin-right: 0rem;
+}
+.performance {
+    margin-left: 0rem;
+}
+.partition-first {
+    float: none;
+    width: 100%;
+}
+.partition-second {
+    width: 100%;
+    float: none;
+    margin-top: 2rem;
+}
+.bg-big-img img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.flex-container {
+    margin-left: 0px;
+}
+.about-app-content {
+    flex-direction: column;
+}
+.right-content-section {
+    height: auto;
+    margin-top: 0px;
+    margin-left: 1rem;
+}
+.left-arrow-section {
+    margin-left: 1rem;
+}
+.middle-content-section h1 {
+    font-size: 5rem;
+}
+.middle-content-section p {
+    font-size: 2.5rem;
+}
+.flex-container-section {
+    flex-direction: column;
+}
+.left-img {
+    width: 100%;
+    padding-right: 0px;
+    height: auto;
+}
+.right-img {
+    width: 100%;
+    padding-left: 0px;
+}
+.solution {
+    width: 350px;
+    height: 350px;
+}
+.solution h1 {
+    font-size: 40px;
+}
+.video-section iframe {
+    width: 80%;
+    height: auto;
+}
+.video-section {
+    height: 335px;
+}
+.form-section h1 {
+    font-size: 30px;
+}
+input {
+    width: 100%;
+    margin: 10px 0px;
+}
+textarea {
+    width: 100%;
+    padding: 30px;
+    margin: 10px 0px;
+}
+.flex {
+    flex-direction: column;
+}
+.left-news {
+    width: 80%;
+    margin-left: 10px;
+}
+.website-news {
+    width: 100%;
+}
+.website-news ul li a {
+    font-size: 12px;
+}
+footer{
+    font-size: 16px;
+}
 }
