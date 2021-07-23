@@ -485,6 +485,20 @@ form{
     width: 100%;
     margin-bottom: 20px;
 }
+.btn2:hover,.btn3:hover{
+    animation-name: bounce;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s; 
+    animation-timing-function: linear;
+}
+
+@keyframes bounce {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-20px); -webkit-transform: translateY(-20px); -moz-transform: translateY(-20px); -ms-transform: translateY(-20px); -o-transform: translateY(-20px); }
+        100% { transform: translateY(0); }
+    }
+
+
 ::placeholder{
     font-size:15px;
 }
