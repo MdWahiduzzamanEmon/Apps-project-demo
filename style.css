@@ -86,7 +86,7 @@ header{
 .menu ul li ul{
     position:absolute;
     display: none;
-    top:100%;
+    top:95%;
     left: 0;
     background-color: #fff;  
 }
@@ -316,3 +316,39 @@ header{
     margin: 0 auto;
 }
 /*bg-big-img*/
+
+/* about-app-section */
+.flex-container{
+    margin-left: 100px;
+}
+.about-app-content{
+    display: flex;
+}
+.left-arrow-section{
+    width: 6%;
+    font-size: 7rem;
+    margin-top: 20px;
+}
+.middle-content-section{
+    width: 70%;
+    padding: 20px;
+}
+.middle-content-section h1{
+    font-size: 7rem;
+    margin-bottom: 0.625rem;
+}
+.middle-content-section p{
+    font-size: 3rem;
+}
+.right-content-section {
+    border-left: 4px solid #000;
+    height: 270px;
+    margin-top: 100px;
+}
+.right-content-section ul li{
+    list-style: none;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 7px;
+    margin-left: 10px;
+}
